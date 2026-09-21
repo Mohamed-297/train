@@ -1,8 +1,11 @@
+import Navbar from "./Component/Navbar/Navbar";
 import { Link, Route,Routes } from 'react-router-dom';
 import Login from './login';
 function App() {
   return (
+     
     <div className="App">
+    <Navbar/>
       <header className="App-header">
         <Routes>
           
